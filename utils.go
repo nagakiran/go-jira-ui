@@ -313,6 +313,7 @@ func getJiraOpts() map[string]interface{} {
 		"max_results": defaultMaxResults,
 		"method":      "GET",
 		"quiet":       true,
+		"insecure":       true,
 	}
 
 	for k, v := range cliOpts {
